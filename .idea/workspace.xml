@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="49dcacc5-b0af-4f8a-854d-244dcb9ab793" name="Changes" comment="" />
+    <list default="true" id="49dcacc5-b0af-4f8a-854d-244dcb9ab793" name="Changes" comment="Junie">
+      <change afterPath="$PROJECT_DIR$/Processing/GeoObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Processing/Province.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/paczkomaty.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heatmap_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heatmap_visualization_README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/krakow_density_heatmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paczkomaty_advanced_score_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paczkomaty_density_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paczkomaty_density_score_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paczkomaty_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paczkomaty_overall_score_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paczkomaty_proximity_score_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paczkomaty_score_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcel_analysis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcel_analysis/analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcel_analysis/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcel_analysis/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcel_analysis/optimization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcel_analysis/reporting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcel_analysis/visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcel_locker_analysis_report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_explanation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score_calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warsaw_combined_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wizualizacja_danych.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="44ece91f-8515-4ff9-8393-12835badb722" name="Changes by johny" comment="" />
+    <list id="81e89bec-3240-40c9-820e-3affdb29f61c" name="Changes by silniczekroot" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,19 +56,75 @@
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2xX18WCiFJkMCTwqRIjR6ksMvU8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.paczkomaty_score_map.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.GeoObject.executor": "Run",
+    "Python.michal.executor": "Run",
+    "Python.preprocess.executor": "Run",
+    "Python.queryPoint.executor": "Run",
+    "Python.score_calculator.executor": "Run",
+    "Python.wizualizacja_danych.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/osm" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.score_calculator">
+    <configuration name="paczkomaty_score_map.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SGHMastercard/paczkomaty_score_map.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="score_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SGHMastercard" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/score_calculator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.paczkomaty_score_map.html" />
+        <item itemvalue="Python.score_calculator" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,10 +140,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748069444140</updated>
+      <workItem from="1748069445163" duration="7479000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Junie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Junie" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SGHMastercard$wizualizacja_danych.coverage" NAME="wizualizacja_danych Coverage Results" MODIFIED="1748075879815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SGHMastercard$queryPoint.coverage" NAME="queryPoint Coverage Results" MODIFIED="1748076723234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SGHMastercard$score_calculator.coverage" NAME="score_calculator Coverage Results" MODIFIED="1748079791413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SGHMastercard$michal.coverage" NAME="michal Coverage Results" MODIFIED="1748076342502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SGHMastercard$GeoObject.coverage" NAME="GeoObject Coverage Results" MODIFIED="1748080261370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Processing" />
+    <SUITE FILE_PATH="coverage/SGHMastercard$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1748076665329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
