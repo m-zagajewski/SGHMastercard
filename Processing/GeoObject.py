@@ -23,7 +23,7 @@ class GeoObject:
                 # Convert DataFrame to meters notation
                 # self.gdf = self.gdf.to_crs(epsg=3857)
                 self.process()
-                print(self.gdf.head())
+                #print(self.gdf.head())
 
         def process(self):
                 self.gdf['center'] = self.gdf['geometry'].centroid
@@ -35,15 +35,15 @@ class GeoObject:
                 self.gdf['distance'] = GeoObject.haversine(center.x, center.y,
                                                                 self.gdf['center'].x, self.gdf['center'].y)
 
-                print(self.gdf.head())
+                #print(self.gdf.head())
                 filtered_gdf = self.gdf[self.gdf['distance'] <= radius]
 
                 if attr_filters is not None:
                         for key, value in attr_filters.items():
                                 filtered_gdf = filtered_gdf[filtered_gdf[key] == value]
 
-                print("Length: ", len(filtered_gdf))
-                print(filtered_gdf.head())
+                #print("Length: ", len(filtered_gdf))
+                #print(filtered_gdf.head())
                 #print(filtered_gdf)
                 return len(filtered_gdf)
 
@@ -62,11 +62,11 @@ class GeoObject:
                 return R * c  # Distance in meters
 
 
-def test2():
-        print("licze dla leszna")
-        gobject = GeoObject("../data/osm/mazowieckie-latest-free/gis_osm_pois_a_free_1.shp")
-        center = Point(20.591443, 52.257846)
-        gobject.count_objects(center, 1000)
+# def test2():
+#         print("licze dla leszna")
+#         gobject = GeoObject("../data/osm/mazowieckie-latest-free/gis_osm_pois_a_free_1.shp")
+#         center = Point(20.591443, 52.257846)
+#         gobject.count_objects(center, 2000)
 
 if __name__ == "__main__":
         test2()
